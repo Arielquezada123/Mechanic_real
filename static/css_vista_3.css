@@ -1,0 +1,81 @@
+body {
+    background-color: #ccc; /* Cambia el color a tu preferencia */
+}
+
+/* Estilo personalizado para el contenedor del calendario */
+#calendario {
+    max-width: 350px;
+    /* Ajusta el ancho del calendario según tu preferencia */
+    margin-bottom: 20;
+    /* Centra el calendario en la página */
+    margin-top:20px;
+}
+
+/* Añadir estilos para el nuevo div */
+#info-mecanica {
+    max-width: 290px;
+    margin-top: -560px; /* Ajuste en la propiedad de margen superior */
+    margin-left: 430px;
+    margin-right: auto;
+    position: absolute; /* Añadida posición relativa */
+    padding: 10px;
+    border: 2px solid black; /* Añadido un borde de 2px sólido y gris */
+}
+
+/* Estilo para el título de la descripción */
+#titulo-descripcion {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilo para el cuadro de texto */
+#servicios-ofrecidos {
+    max-width: 290px;
+    margin-top: -260px;
+    margin-left: 430px;
+    margin-right: auto;
+    position: absolute;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Estilo para la lista de servicios */
+#lista-servicios {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#lista-servicios li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para el cuadro de información del gerente */
+#info-gerente {
+    max-width: 400px;
+    margin-top: -560px;
+    margin-left: 760px; /* Ajusta la posición lateral según tu preferencia */
+    position: absolute;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Estilo para la imagen del gerente */
+#imagen-gerente {
+    width: 90%; /* Ajusta el ancho de la imagen según tu preferencia */
+    margin-bottom: 10px;
+}
+
+/* Estilo para el nuevo div de la imagen */
+#imagen-extra {
+    max-width: 400px;
+    margin-top: -80px;
+    margin-left: 760px; /* Ajusta la posición lateral según tu preferencia */
+    position: absolute;
+    padding: 10px;
+}
+
+/* Estilo para la imagen adicional */
+#imagen-adicional {
+    width: 100%; /* Ajusta el ancho de la imagen según tu preferencia */
+}
